@@ -5,8 +5,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
-@Primary
-@Component
+@Component("tea")
 public class Tea implements HotDrink{
 
     public void prepareHotDrink() {
